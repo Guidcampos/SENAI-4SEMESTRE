@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using minimalAPI_MongoDB.Domains;
 using minimalAPIMongo.Domains;
 using minimalAPIMongo.Services;
 using minimalAPIMongo.ViewModels;

@@ -2,6 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
 using System.Text.Json.Serialization;
+using minimalAPI_MongoDB.Domains;
 
 namespace minimalAPIMongo.ViewModels
 {

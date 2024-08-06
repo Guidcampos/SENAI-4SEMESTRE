@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guilh\\Desktop\\SENAI\\SENAI-4SEMESTRE\\senai_sprint2_test\\Exercicios\\ValidacaoDeEmail\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{352E58BE-0FEA-4C27-8693-8C65B1632268}|..\\ValidacaoDeEmail.Test\\ValidacaoDeEmail.Test.csproj|c:\\users\\guilh\\desktop\\senai\\senai-4semestre\\senai_sprint2_test\\exercicios\\validacaodeemail.test\\validaremailunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9841F9E5-F4DF-4539-B6CB-7AAD1CA11A1C}|ValidacaoDeEmail.csproj|c:\\users\\guilh\\desktop\\senai\\senai-4semestre\\senai_sprint2_test\\exercicios\\validacaodeemail\\validaremail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9841F9E5-F4DF-4539-B6CB-7AAD1CA11A1C}|ValidacaoDeEmail.csproj|solutionrelative:validaremail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9841F9E5-F4DF-4539-B6CB-7AAD1CA11A1C}|ValidacaoDeEmail.csproj|c:\\users\\guilh\\desktop\\senai\\senai-4semestre\\senai_sprint2_test\\exercicios\\validacaodeemail\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9841F9E5-F4DF-4539-B6CB-7AAD1CA11A1C}|ValidacaoDeEmail.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidarEmailUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\Desktop\\SENAI\\SENAI-4SEMESTRE\\senai_sprint2_test\\Exercicios\\ValidacaoDeEmail.Test\\ValidarEmailUnitTest.cs",
+              "RelativeDocumentMoniker": "..\\ValidacaoDeEmail.Test\\ValidarEmailUnitTest.cs",
+              "ToolTip": "C:\\Users\\guilh\\Desktop\\SENAI\\SENAI-4SEMESTRE\\senai_sprint2_test\\Exercicios\\ValidacaoDeEmail.Test\\ValidarEmailUnitTest.cs",
+              "RelativeToolTip": "..\\ValidacaoDeEmail.Test\\ValidarEmailUnitTest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T01:46:01.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidarEmail.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\Desktop\\SENAI\\SENAI-4SEMESTRE\\senai_sprint2_test\\Exercicios\\ValidacaoDeEmail\\ValidarEmail.cs",
+              "RelativeDocumentMoniker": "ValidarEmail.cs",
+              "ToolTip": "C:\\Users\\guilh\\Desktop\\SENAI\\SENAI-4SEMESTRE\\senai_sprint2_test\\Exercicios\\ValidacaoDeEmail\\ValidarEmail.cs",
+              "RelativeToolTip": "ValidarEmail.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T01:46:01.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\Desktop\\SENAI\\SENAI-4SEMESTRE\\senai_sprint2_test\\Exercicios\\ValidacaoDeEmail\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\guilh\\Desktop\\SENAI\\SENAI-4SEMESTRE\\senai_sprint2_test\\Exercicios\\ValidacaoDeEmail\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T01:46:01.567Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
