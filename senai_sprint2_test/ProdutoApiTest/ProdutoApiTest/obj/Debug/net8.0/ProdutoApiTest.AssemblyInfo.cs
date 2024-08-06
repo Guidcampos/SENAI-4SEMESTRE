@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProdutoApiTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+845a4c86d9e86e1baa3cc7578627b783dc6a19f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09cd3f8202a8965fc8ae2b1672f11e3de9fc65d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProdutoApiTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProdutoApiTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
