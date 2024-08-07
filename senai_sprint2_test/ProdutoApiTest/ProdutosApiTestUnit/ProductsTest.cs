@@ -78,11 +78,70 @@ namespace ProdutosApiTestUnit
 
             mockRepository.Object.Delete(idbuscado);
 
-            Assert.False(productList.Contains(product));
-            
+            Assert.DoesNotContain(product, productList);
 
         }
 
-        
+        [Fact]
+
+        public void GetId() 
+        {
+            //lista de produtos
+            List<Products> productList = new List<Products>
+            {
+                new Products { IdProduct = Guid.Parse("fc072692-d322-448b-9b1b-ba3443943579"), Name = "Produto 1", Price = 78 },
+                new Products { IdProduct = Guid.NewGuid(), Name = "Produto 2", Price = 90 },
+                new Products { IdProduct = Guid.NewGuid(), Name = "Produto 3", Price = 787 }
+
+            };
+
+            var idbuscado = Guid.Parse("fc072692-d322-448b-9b1b-ba3443943579");
+
+            var mockRepository = new Mock<IProductsRepository>();
+
+            mockRepository.Setup(x => x.GetById(idbuscado)).Returns(productList.FirstOrDefault(a => a.IdProduct == idbuscado));
+            var result = mockRepository.Object.GetById(idbuscado);
+
+            Assert.Equal(idbuscado, result.IdProduct);
+
+        }
+
+        [Fact]
+
+        public void Update ()
+        {
+            //lista de produtos
+            List<Products> productList = new List<Products>
+            {
+                new Products { IdProduct = Guid.Parse("fc072692-d322-448b-9b1b-ba3443943579"), Name = "Produto 1", Price = 78 },
+                new Products { IdProduct = Guid.NewGuid(), Name = "Produto 2", Price = 90 },
+                new Products { IdProduct = Guid.NewGuid(), Name = "Produto 3", Price = 787 }
+
+            };
+
+            Products product = new Products { IdProduct = Guid.Parse("fc072692-d322-448b-9b1b-ba3443943579"), Name = "Teste", Price = 78 };
+            var idbuscado = Guid.Parse("fc072692-d322-448b-9b1b-ba3443943579");
+
+
+            var mockRepository = new Mock<IProductsRepository>();
+
+            mockRepository.Setup(x => x.Put(product.IdProduct, product)).Callback<Guid, Products>((id, p) =>
+            {
+                var item = productList.FirstOrDefault(x => x.IdProduct == id);
+
+                if (item != null)
+                {
+                    item.Name = p.Name;
+                    item.Price = p.Price;
+                }
+            });
+
+            mockRepository.Object.Put(product.IdProduct, product);
+            var updatedProduct = productList.FirstOrDefault(x => x.IdProduct == idbuscado);
+
+            Assert.Equal("Teste", updatedProduct.Name);
+
+        }
+
     }
 }
