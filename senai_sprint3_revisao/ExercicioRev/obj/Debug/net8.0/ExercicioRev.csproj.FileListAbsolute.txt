@@ -1,0 +1,14 @@
+C:\Users\39905572899\Desktop\ExercicioRev\bin\Debug\net8.0\ExercicioRev.exe
+C:\Users\39905572899\Desktop\ExercicioRev\bin\Debug\net8.0\ExercicioRev.deps.json
+C:\Users\39905572899\Desktop\ExercicioRev\bin\Debug\net8.0\ExercicioRev.runtimeconfig.json
+C:\Users\39905572899\Desktop\ExercicioRev\bin\Debug\net8.0\ExercicioRev.dll
+C:\Users\39905572899\Desktop\ExercicioRev\bin\Debug\net8.0\ExercicioRev.pdb
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\ExercicioRev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\ExercicioRev.AssemblyInfoInputs.cache
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\ExercicioRev.AssemblyInfo.cs
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\ExercicioRev.csproj.CoreCompileInputs.cache
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\ExercicioRev.dll
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\refint\ExercicioRev.dll
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\ExercicioRev.pdb
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\ExercicioRev.genruntimeconfig.cache
+C:\Users\39905572899\Desktop\ExercicioRev\obj\Debug\net8.0\ref\ExercicioRev.dll
