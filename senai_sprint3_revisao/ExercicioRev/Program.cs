@@ -86,20 +86,41 @@
 // - Exiba a média e o status (aprovado/reprovado) de cada aluno.
 // - Use foreach para iterar sobre os alunos e as disciplinas.
 
+using System.Runtime;
+
 string[] alunos = ["gabriel", "guilherme", "matheus"];
 string[] disciplinas = ["Portugues", "Matematica", "Biologia"];
-int[] nota1 = [7,8,9];
-int[] nota2 = [7,7,7];
-int[] nota3 = [5,8,3];
+int[] notas0 = [7,8,9];
+int[] notas1 = [7,7,6];
+int[] notas2 = [5,8,3];
+int alunoIndex = 0;
 
 foreach (string aluno in alunos)
 {
+        Console.WriteLine($"");
+        Console.WriteLine($"Boletim do {aluno}: " );
+        Console.WriteLine($"");
+        
+        int disciplinaNotaIndex = 0;
+        int soma = 0;
+        int[] notas = [];
+        int aprovado = 0;
 
     foreach (string disciplina in disciplinas)
     {
-        Console.WriteLine($"{aluno} {disciplina} {nota1[1]}");
         
+            notas = alunoIndex == 0 ? notas0 : alunoIndex == 1 ? notas1 : notas2;
+           Console.WriteLine($"{disciplina} nota: {notas[disciplinaNotaIndex]}");
+
+         soma = soma + notas[disciplinaNotaIndex];
+         disciplinaNotaIndex++;
          
 
     }
+        float media = (float)soma / (float)disciplinas.Length;
+        alunoIndex++;
+
+    Console.WriteLine($"Nota final: {soma} {(float)media}");
+    Console.WriteLine($"");
+    
 }
