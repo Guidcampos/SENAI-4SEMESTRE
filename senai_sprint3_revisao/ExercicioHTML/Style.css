@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.grid-layout {
+    width: 90%;
+    margin: 0 auto; 
+    
+}
+/* HEADER--------------------------------------------------------------- */
+header {
+    background: linear-gradient(to right, #1E52B4 0%, #002777 100%);
+    height: 57px;
+    /* padding-top: 22px; */
+}
+
+header .Container-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+header .Logotipo{
+    height: 23px;
+    width: 160px;
+}
+
+header nav a {
+    margin-right: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header nav button {
+   border: 1px solid #FFFFFF;
+   border-radius: 8px;
+   color: #FFFFFF;
+   background-color: transparent;
+   width: 151px;
+   height: 35px;
+   padding: 0;
+   margin: 0;
+}
+
+/* Main ------------------------------------------------------------------------- */
+
+main .AreaAzul{
+    background: linear-gradient(to right, #1E52B4 0%, #002777 100%);
+}
+
+main .Container-areazul{
+    height: 404px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+main .TextoAreaAzul{
+    width: 435px;
+    height: 130px;
+    color: #FAFAFA;
+    margin-top: 119px;
+}
+
+main .Imagem-AreaAzul{
+    width: 379px;
+    height: 334px;
+    margin-right: 26px;
+    margin-top: 37px;
+}
+
+main .Cards{
+    height: 999px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .Cards input{
+    border: none;
+    outline: none;
+    align-items: center;
+    margin-left: 10px;
+}
+main .Cards .Forms-input1{
+    margin-left: 30px;
+    margin-right: 61px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Cards .Forms-input2{
+    height: 19px;
+    margin-left: 46px;
+    margin-right: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Cards .Forms-input3{
+    height: 19px;
+    margin-left: 46px;
+    margin-right: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+main .Cards .tracejada{
+    height: 55px;
+    border: 2px dashed #4E4B59;
+   
+}
+
+main .Cards img{
+    width: 12px;
+    height: 16px;
+}
+
+
+main .Forms-local{
+    width: 942px;
+    height: 80px;
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 40px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Footer -------------------------------------------------------------- */
+
+footer{
+    background: linear-gradient(to right, #009C3B 0%, #009538 100%);
+}
+
+footer .Footer-verde{
+    height: 163px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .Footer-amarelo{
+    height: 50px;
+    background-color: #FFDF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer .Logotipo-footer{
+    width: 133px;
+    height: 20px;
+}
+
+footer img {
+height: 163px;
+width: 319px;
+}
+footer .Img-espelhada {
+transform: scaleX(-1);
+}
+
+footer .Footer-texto{
+    color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+footer .Footer-texto p{
+    color: #FFFFFF;
+}
+footer .Footer-texto h3{
+    margin-bottom: 20px;
+}
