@@ -1,0 +1,33 @@
+.container-task{
+    width: 674px;
+    height: 62px;
+    border: 1px solid #3C424A;
+    border-radius: 8px;
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.checkbox{
+    width: 27px;
+    height: 27px;
+    border: 1px solid #BDA4FF;
+    border-radius: 4px;
+    background-color: #BDA4FF;
+}
+.delete{
+    width: 34px;
+    height: 34px;
+    border: 1px solid #BDA4FF;
+    border-radius: 4px;
+    background-color: #BDA4FF;
+}
+.editar{
+    width: 34px;
+    height: 34px;
+    border: 1px solid #BDA4FF;
+    border-radius: 4px;
+    background-color: #BDA4FF;
+}

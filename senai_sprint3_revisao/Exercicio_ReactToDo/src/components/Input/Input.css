@@ -1,0 +1,33 @@
+.container-input{
+    border: 2px solid #FCFCFC;
+    width: 289px;
+    height: 43px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    margin-bottom: 72px;
+}
+
+.input{
+   width: 100%;
+   height: 100%;
+    font-size: 18px;
+    color: #FCFCFC;
+    background-color: transparent;
+    text-align: end;
+    outline: 0;
+    border: none;
+  
+    
+}
+
+.input::placeholder{
+    color: #FCFCFC;
+}
+
+
+.search{
+    width: 14px;
+    height: 14px;
+}
