@@ -44,7 +44,7 @@ const HomePage = () => {
                 <Input/>
                 <Task/>
             </Container>
-            <Button additionalClass={"button--pequeno"} tipo={"submit"} textoBotao={"Nova tarefa"}/>
+            <Button additionalClass={"button--pequeno"} tipo={"submit"} textoBotao={"Nova tarefa"} />
         </MainContent>
     );
 };
