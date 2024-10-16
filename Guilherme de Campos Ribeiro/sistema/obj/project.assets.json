@@ -4045,11 +4045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\39905572899\\Desktop\\Guilherme de Campos Ribeiro\\sistema\\sistema.csproj",
+      "projectUniqueName": "C:\\Users\\39905572899\\Desktop\\SENAI-4SEMESTRE\\Guilherme de Campos Ribeiro\\sistema\\sistema.csproj",
       "projectName": "sistema",
-      "projectPath": "C:\\Users\\39905572899\\Desktop\\Guilherme de Campos Ribeiro\\sistema\\sistema.csproj",
+      "projectPath": "C:\\Users\\39905572899\\Desktop\\SENAI-4SEMESTRE\\Guilherme de Campos Ribeiro\\sistema\\sistema.csproj",
       "packagesPath": "C:\\Users\\39905572899\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\39905572899\\Desktop\\Guilherme de Campos Ribeiro\\sistema\\obj\\",
+      "outputPath": "C:\\Users\\39905572899\\Desktop\\SENAI-4SEMESTRE\\Guilherme de Campos Ribeiro\\sistema\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\39905572899\\AppData\\Roaming\\NuGet\\NuGet.Config",

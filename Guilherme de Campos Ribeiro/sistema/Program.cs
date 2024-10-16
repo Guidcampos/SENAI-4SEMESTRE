@@ -21,6 +21,7 @@ builder.Services.AddSession(options =>
 });
 //end session
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,6 +33,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseSession();
@@ -42,6 +44,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Login}/{action=Index}/{id?}");
 
 app.Run();

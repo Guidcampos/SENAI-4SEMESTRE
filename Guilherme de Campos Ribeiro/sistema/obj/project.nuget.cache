@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sQjcvTELYgvpFjpxi3G0AD73zraRd7IHkXywQqB4XumiP/UU/9EAbx+Y6/qLAKrfFkuy3I7LvnujMPalkwfPwA==",
+  "dgSpecHash": "jq0VYqeHrKP/KB8llWngL77JDW5OSEVnq//j9xpWs3UpQi9vt282COQfv0FjIckn7V6edjnVAVPh0qxTtlcDxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\39905572899\\Desktop\\Guilherme de Campos Ribeiro\\sistema\\sistema.csproj",
+  "projectFilePath": "C:\\Users\\39905572899\\Desktop\\SENAI-4SEMESTRE\\Guilherme de Campos Ribeiro\\sistema\\sistema.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\39905572899\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\39905572899\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

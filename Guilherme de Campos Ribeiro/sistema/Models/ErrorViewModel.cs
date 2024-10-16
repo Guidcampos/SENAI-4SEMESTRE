@@ -1,4 +1,4 @@
-namespace sistema.Models
+﻿namespace sistema.Models
 {
     public class ErrorViewModel
     {
