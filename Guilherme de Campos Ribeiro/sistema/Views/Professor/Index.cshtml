@@ -9,19 +9,20 @@
 {
 
 @* cadastrar turma *@
-
-    <button type="button" data-bs-toggle="modal" data-bs-target="#cadastrarTurma" class="btn btn-outline-primary mt-5 align-itens-end">Cadastrar Turma</button>
-
+<div class="d-flex justify-content-end">
+    <button type="button" data-bs-toggle="modal" data-bs-target="#cadastrarTurma" class="btn btn-outline-primary mt-5 justify-content-end">Cadastrar Turma</button>
+        </div>
 
 @* título *@
-
+    <h3 class="fw-bold">Sua lista de turmas</h3>
 @* tabela *@
     <table class="table mt-5">
     <thead>
         <tr>
                 <th scope="col">Número</th>
                 <th scope="col">Turma</th>
-                <th scope="col">Opções</th>
+                <th class="text-end" scope="col">Opções</th>
+             
         </tr>
     </thead>
 
@@ -31,13 +32,13 @@
                 <tr scope="row">
                 <td>@turma.TurmaId</td>
                 <td>@turma.Nome</td>
-                <td>
-                    <div class="d-flex gap-4">
-                        <form asp-controller="Professor" asp-action="ExcluirTurma" onsubmit="return confirm('Voce tem certeza que deseja excluir essa turma?')">
-                            <input type="hidden" name="turmaId" value="@turma.TurmaId" />
-                                <button type="Submit" class="btn btn-outline-danger">Excluir</button>
-                        </form>
-
+                    <td class="text-end">
+                        <div class="d-flex gap-4 justify-content-end">
+                             @*  <form asp-controller="Professor" asp-action="ExcluirTurma" onsubmit="return confirm('Voce tem certeza que deseja excluir essa turma?')" > *@ 
+                             @* <input type="hidden" name="turmaId" value="@turma.TurmaId" /> *@
+                            <button type="button" data-id="@turma.TurmaId" data-bs-toggle="modal" data-bs-target="#excluirTurma" class="btn btn-outline-danger">Excluir</button>
+                        @*   </form> 
+ *@
                         <form asp-controller="Atividade" asp-action="Index" asp-route-turmaId="@turma.TurmaId">
                             <input type="hidden" name="turmaId" value="@turma.TurmaId" />
                                 <button type="Submit" class="btn btn-outline-success">Visualizar</button>
@@ -78,3 +79,30 @@
         </div>
     </div>
 </div>
+
+<div class="modal" tabindex="-1" id="excluirTurma">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title mx-3">Excluir Turma</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+             
+         <form asp-controller="Professor" asp-action="ExcluirTurma" > 
+            
+                    <p class="mx-3 form-label">Voce tem certeza que deseja excluir essa turma?</p>
+                <input type="hidden" name="turmaId" id="turmaId" />
+                
+                <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Confirmar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                   
+         </div>
+          </form>
+           
+     </div>
+</div>
+
+ 
